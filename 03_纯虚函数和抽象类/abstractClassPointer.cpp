@@ -4,7 +4,7 @@
  * @Author: JiaXiangwei
  * @Date: 2021-01-29 13:28:44
  * @LastEditors: sueRimn
- * @LastEditTime: 2021-01-29 13:29:09
+ * @LastEditTime: 2021-01-29 13:33:50
  */
 #include<iostream> 
 using namespace std; 
@@ -30,4 +30,4 @@ int main(void)
     Base *bp = new Derived(); // 抽象类的指针和引用 -> 由抽象类派生出来的类的对象
     bp->show();
     return 0; 
-} 
+}
